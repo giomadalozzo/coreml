@@ -14,7 +14,6 @@
 		294A90E228230EED00734D7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 294A90E128230EED00734D7C /* Assets.xcassets */; };
 		294A90E528230EED00734D7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294A90E328230EED00734D7C /* LaunchScreen.storyboard */; };
 		2967944B2824574D00FFE4F1 /* Resnet50FP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2967944A2824574D00FFE4F1 /* Resnet50FP16.mlmodel */; };
-		2967944D282461A800FFE4F1 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2967944C282461A800FFE4F1 /* MobileNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		294A90E428230EED00734D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		294A90E628230EED00734D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2967944A2824574D00FFE4F1 /* Resnet50FP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50FP16.mlmodel; sourceTree = "<group>"; };
-		2967944C282461A800FFE4F1 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +66,6 @@
 				294A90E328230EED00734D7C /* LaunchScreen.storyboard */,
 				294A90E628230EED00734D7C /* Info.plist */,
 				2967944A2824574D00FFE4F1 /* Resnet50FP16.mlmodel */,
-				2967944C282461A800FFE4F1 /* MobileNet.mlmodel */,
 			);
 			path = MachineLearning2;
 			sourceTree = "<group>";
@@ -145,7 +142,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				294A90DD28230EEC00734D7C /* ViewController.swift in Sources */,
-				2967944D282461A800FFE4F1 /* MobileNet.mlmodel in Sources */,
 				294A90D928230EEC00734D7C /* AppDelegate.swift in Sources */,
 				294A90DB28230EEC00734D7C /* SceneDelegate.swift in Sources */,
 				2967944B2824574D00FFE4F1 /* Resnet50FP16.mlmodel in Sources */,
